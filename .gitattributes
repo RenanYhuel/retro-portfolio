@@ -1,0 +1,26 @@
+# Set default behaviour to text
+* text=auto
+
+# Force LF for common text files
+*.js     text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.jsx    text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
+*.css    text eol=lf
+*.html   text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+
+# Export-ignore for files not needed in archive
+README.md export-ignore
+CONTRIBUTING.md export-ignore
+CODE_OF_CONDUCT.md export-ignore
